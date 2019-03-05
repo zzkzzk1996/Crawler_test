@@ -8,7 +8,7 @@
 
 class FirstnovelPipeline(object):
     def open_spider(self, spider):
-        self.file = open('黄金瞳.txt', 'w', encoding='utf-8')
+        self.file = open('古董局中局.txt', 'w', encoding='utf-8')
 
     def process_item(self, item, spider):
         title = item['title']

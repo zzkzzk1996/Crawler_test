@@ -1,2 +1,2 @@
 from scrapy.cmdline import execute
-execute(['scrapy', 'crawl', 'huangjintong'])
+execute(['scrapy', 'crawl', 'gudong'])
